@@ -1,0 +1,13 @@
+###
+Get http://localhost:3000/transactions
+
+
+###
+POST http://localhost:3000/transactions
+Content-Type: application/json
+
+{
+  "account_ids": 1982,
+  "amount": 12345678.00,
+}
+
